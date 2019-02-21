@@ -1,3 +1,3 @@
 class Symptom < ApplicationRecord
-  belongs_to :patients
+  belongs_to :patient
 end

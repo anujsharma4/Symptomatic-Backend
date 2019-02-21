@@ -29,6 +29,7 @@ pat6 = Patient.create(name: "Jerry Chang", email: "jerry@hotmail.com", password:
 pat7 = Patient.create(name: "Ryan Reynolds", email: "ryan@hotmail.com", password: "111", age: 40, weight: 220, sex: "Male", height: "6.2")
 pat8 = Patient.create(name: "Jeniffer Aniston", email: "jeniffer@hotmail.com", password: "111", age: 48, weight: 130, sex: "Female", height: "5.7")
 
+
 symp1 = Symptom.create(info: "Burning sensation in the nether regions", duration: "1 week", severity: 5, patient_id: pat1.id)
 symp2 = Symptom.create(info: "Migraine", duration: "2 days", severity: 7, patient_id: pat4.id)
 symp3 = Symptom.create(info: "Crackling cough", duration: "2 week", severity: 6, patient_id: pat2.id)
