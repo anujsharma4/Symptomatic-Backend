@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  info: MyString
+  duration: MyString
+  severity: 1
+
+two:
+  info: MyString
+  duration: MyString
+  severity: 1
