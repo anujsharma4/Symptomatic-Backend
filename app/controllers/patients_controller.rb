@@ -11,9 +11,8 @@ class PatientsController < ApplicationController
 
   end
 
-  def create
-    @patient = Patient.create(patient_params)
-    render json: @patient
+  def signin
+    render json: User.find_by(email: params["email"], password: params["password"])
   end
 
 
