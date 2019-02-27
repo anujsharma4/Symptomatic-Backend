@@ -11,9 +11,9 @@ class DoctorsController < ApplicationController
 
   end
 
-  def create
-
-  end
+  # def signin
+  #   render json: User.find_by(email: params["email"], password: params["password"])
+  # end
 
 
 
