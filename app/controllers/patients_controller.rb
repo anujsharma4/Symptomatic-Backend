@@ -12,10 +12,16 @@ class PatientsController < ApplicationController
   end
 
   def create
-
+    @patient = Patient.create(patient_params)
+    render json: @patient
   end
 
 
+# private
+#
+# def patient_params
+#   params.require(:patient).permit(:info, :duration, :severity, :patient_id)
+# end
 
 
 end

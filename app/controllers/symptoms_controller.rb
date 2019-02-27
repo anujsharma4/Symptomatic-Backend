@@ -12,7 +12,18 @@ class SymptomsController < ApplicationController
   end
 
   def create
+    # x = params
+    byebug
+    @symptom = Symptom.create(symptom_params)
+    render json: @symptom
+  end
 
+
+
+  private
+
+  def symptom_params
+    params.require(:symptoms).permit(:info, :duration, :severity, :patient_id)
   end
 
 

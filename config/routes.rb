@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   resources :doctors, only: [:index, :show]
   resources :patients, only: [:index, :show]
   resources :symptoms, only: [:index, :show]
+    post "/symptoms" => 'symptoms#create', :as => :create_forum
 end
