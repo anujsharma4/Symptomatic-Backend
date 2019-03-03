@@ -12,6 +12,7 @@ class SymptomsController < ApplicationController
   end
 
   def create
+  
     @symptom = Symptom.create(symptom_params)
     render json: @symptom
   end
