@@ -11,10 +11,17 @@ class DoctorsController < ApplicationController
 
   end
 
-  # def signin
-  #   render json: User.find_by(email: params["email"], password: params["password"])
-  # end
+  def login
+    @doctor = Doctor.find_by(doctor_params)
+    render json: @doctor
+  end
 
+
+  private
+
+  def doctor_params
+    params.require(:doctor).permit(:email, :password)
+  end
 
 
 
