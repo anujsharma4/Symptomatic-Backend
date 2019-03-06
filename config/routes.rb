@@ -3,7 +3,8 @@ Rails.application.routes.draw do
 
   resources :doctors
     post "/login", to: 'doctors#login'
-  resources :patients, only: [:index, :show]
+    # post "/login", to: 'auth#create'
+  resources :patients, only: [:index, :show, :create]
     post "/signin", to: 'patients#signin'
   resources :symptoms, only: [:index, :show]
     post "/symptoms", to: 'symptoms#create', :as => :create_forum
