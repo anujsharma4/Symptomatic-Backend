@@ -4,10 +4,11 @@ class CreatePatients < ActiveRecord::Migration[5.2]
       t.string :name
       t.string :email
       t.string :password
-      t.integer :age
+      t.string :age
       t.integer :weight
       t.string :sex
       t.string :height
+      t.string :picture
       t.integer :symptom_id
 
       t.timestamps

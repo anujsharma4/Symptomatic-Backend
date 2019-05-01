@@ -34,10 +34,11 @@ ActiveRecord::Schema.define(version: 2019_02_20_221938) do
     t.string "name"
     t.string "email"
     t.string "password"
-    t.integer "age"
+    t.string "age"
     t.integer "weight"
     t.string "sex"
     t.string "height"
+    t.string "picture"
     t.integer "symptom_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
