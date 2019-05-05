@@ -18,7 +18,7 @@ doc1 = Doctor.create(name: "Robin Kim", email: "drkim@symptomatic.com", password
 doc2 = Doctor.create(name: "Ashley Zaki", email: "drzaki@symptomatic.com", password: "111")
 doc3 = Doctor.create(name: "Joseph Spinelli", email: "drspinelli@symptomatic.com", password: "111")
 doc4 = Doctor.create(name: "Vlad Deryuzhenko", email: "drvlad@symptomatic.com", password: "111")
-doc5 = Doctor.create(name: "Anuj Sharm", email: "drsharma@symptomatic.com", password: "111")
+doc5 = Doctor.create(name: "Anuj Sharma", email: "drsharma@symptomatic.com", password: "111")
 
 pat1 = Patient.create(name: "John Travolta", email: "johnyt@hotmail.com", password: "111", age: "1960/04/24", weight: 200, sex: "Male", height: "6.0", picture: "https://a57.foxnews.com/media2.foxnews.com/BrightCove/694940094001/2019/01/08/931/524/694940094001_5987127392001_5987123072001-vs.jpg?ve=1&tl=1")
 pat2 = Patient.create(name: "Maya Angelou", email: "maya@hotmail.com", password: "111", age: "1960/04/24", weight: 120, sex: "Female", height: "5.0", picture: "https://www.gannett-cdn.com/-mm-/715ca9c0e763b8130298f4265b5bcaf4898a79e5/c=0-146-1370-1177/local/-/media/USATODAY/GenericImages/2014/05/28//1401284180000-XXX-ANGELOU-MOM-BOOKS-2370.jpg?width=534&height=401&fit=crop")
